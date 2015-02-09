@@ -1,0 +1,14 @@
+name: Jinkers
+main: co.obam.jinkers.jinkers.Jinkers
+version: 0.1
+description: My first plugin
+commands:
+  hi:
+    description: Says Hello Minecraft to the server.
+    usage: /hi
+  heal:
+    description: heals yourself unless another player is specified.
+    usage: /heal [<name>]
+  port:
+    description: Teleports you to the player.
+    usage: /port <player> [<player>]
